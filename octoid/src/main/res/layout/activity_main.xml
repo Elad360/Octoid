@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/new_task_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add_task" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+    <ListView
+        android:id="@+id/listV_main"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+</LinearLayout>
