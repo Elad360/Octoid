@@ -7,26 +7,43 @@
     tools:context=".CreateTaskActivity"
     android:orientation="vertical">
 
+    <Button
+        android:id="@+id/button_get_random_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_get_random_task"
+        android:layout_gravity="center_horizontal"/>
+
+
     <EditText android:id="@+id/edit_message"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/task_description" />
 
-    <DatePicker
-        android:id="@+id/date_picker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TimePicker
-        android:id="@+id/time_picker"
+    <Button
+        android:id="@+id/button_select_date"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
 
     <Button
-        android:id="@+id/create_task_button"
+        android:id="@+id/button_select_time"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+
+    <Button
+        android:id="@+id/button_create_task"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_create" />
+        android:layout_marginTop="20dp"
+        android:text="@string/button_create"
+        android:layout_gravity="center_horizontal"/>
+
 
 </LinearLayout>

@@ -8,6 +8,7 @@
     <string name="button_add_task">Add Task</string>
     <string name="title_activity_create_task">CreateTaskActivity</string>
     <string name="task_description">Description</string>
+    <string name="button_get_random_task">Get Random Task</string>
     <string name="button_create">Create</string>
 
 

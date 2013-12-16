@@ -24,8 +24,6 @@ public class TasksBroadcastReceiver extends BroadcastReceiver
                 .setContentText("Task Reminder").setSmallIcon(R.drawable.icon)
                 .setContentIntent(pIntent).build();
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-        // hide the notification after its selected
-        note.flags |= Notification.FLAG_AUTO_CANCEL;
 
         note.defaults = Notification.DEFAULT_ALL;
         notificationManager.notify(0, note);
