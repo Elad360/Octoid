@@ -199,7 +199,7 @@ public class CreateTaskActivity extends Activity
             try
             {
                 TasksWebManager webManager = new TasksWebManager(urlStr);
-                return webManager.pullTask();  //Background thread
+                return webManager.pullTask();  //Background  thread
             }
             catch (Exception e)
             {
